@@ -34,9 +34,9 @@ No sign-up, no server, no dependencies to install. Open the file, and it works. 
 - Live spending-by-category bar chart, animated on render
 
 **Dashboard**
-- Current balance, total spent, and saved/remaining at a glance
-- Dedicated cards for smoking spend, relationship expenses, and betting profit/loss
-- Sidebar budget overview with per-category progress bars
+- Current balance, total spent, and saved/remaining at a glance.
+- Dedicated cards for smoking spend, relationship expenses, and betting profit/loss.
+- Sidebar budget overview with per-category progress bars.
 
 **Built-in helpers**
 - Cigarette budget calculator with real market prices and combo suggestions
