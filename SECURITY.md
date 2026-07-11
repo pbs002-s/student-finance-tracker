@@ -1,5 +1,5 @@
 # Security Policy
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=FF1493&height=100&section=footer" width="100%"/>
 ## Supported Versions
 
 Use this section to tell people about which versions of your project are
