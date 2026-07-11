@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:2C5364,100:1D9E75&height=180&section=header&text=Student%20Finance%20Tracker&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=A%20campus-tuned%20money%20tracker%20that%20talks%20back&descAlignY=58&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=FF1493&height=100&section=footer" width="100%"/>
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&duration=2500&pause=1000&color=2DD4BF&center=true&vCenter=true&width=650&height=50&lines=Single-file+HTML+finance+tracker;Built+for+hall+life%2C+CNG+fares+%26+tight+budgets;Comes+with+a+built-in+AI+money+advisor;No+backend.+No+build+step.+Just+open+it." alt="typing-svg" />
 
