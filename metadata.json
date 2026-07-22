@@ -1,0 +1,6 @@
+{
+  "name": "Takar Hishab — BD Student Finance",
+  "description": "Android Mobile Finance Tracker for Bangladeshi University Students with Babu's Mother AI Advisor & Quick Tools",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
