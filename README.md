@@ -1,107 +1,133 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=FF1493&height=100&section=footer" width="100%"/>
+  <h1>💸 Takar Hisab</h1>
+  <p><strong>A Modern, Full-Stack Personal & Student Finance Tracker Application</strong></p>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&duration=2500&pause=1000&color=2DD4BF&center=true&vCenter=true&width=650&height=50&lines=Single-file+HTML+finance+tracker;Built+for+hall+life%2C+CNG+fares+%26+tight+budgets;Comes+with+a+built-in+AI+money+advisor;No+backend.+No+build+step.+Just+open+it." alt="typing-svg" />
+  <p>
+    <a href="#key-features">Key Features</a> •
+    <a href="#tech-stack">Tech Stack</a> •
+    <a href="#getting-started">Getting Started</a> •
+    <a href="#project-structure">Project Structure</a> •
+    <a href="#license">License</a>
+  </p>
 
-<br/>
-
-![Single File](https://img.shields.io/badge/Architecture-Single%20File-2DD4BF?style=for-the-badge&logo=html5&logoColor=white&labelColor=0D1117)
-![No Backend](https://img.shields.io/badge/Backend-None-8B7FE8?style=for-the-badge&labelColor=0D1117)
-![Storage](https://img.shields.io/badge/Storage-localStorage-2DD4BF?style=for-the-badge&labelColor=0D1117)
-![Status](https://img.shields.io/badge/Status-Active-8B7FE8?style=for-the-badge&labelColor=0D1117)
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme-cover/master/assets/lines.gif" width="100%" height="2px"/>
-
-</div>
-
-## What this is
-
-A finance tracker built as one self-contained HTML file, tuned to how a university student actually spends money — hall dining, transport fares, printouts, mobile recharge, and a few categories most trackers pretend don't exist.
-
-No sign-up, no server, no dependencies to install. Open the file, and it works. Everything is saved to `localStorage` in the browser.
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="500">
-</div>
-
-## Features
-
-**Tracking**
-- Add, edit, and delete income and expense entries
-- 17 built-in categories, each with its own monthly budget ceiling
-- Category filtering across the transaction list
-- Live spending-by-category bar chart, animated on render
-
-**Dashboard**
-- Current balance, total spent, and saved/remaining at a glance.
-- Dedicated cards for smoking spend, relationship expenses, and betting profit/loss.
-- Sidebar budget overview with per-category progress bars.
-
-**Built-in helpers**
-- Cigarette budget calculator with real market prices and combo suggestions
-- Preset bundles for common date/outing expenses
-- Betting tracker that logs profit and loss as separate entries so the balance stays honest
-
-**AI panel**
-- A built-in budget advisor personality in the sidebar
-- Quick-prompt buttons for common situations ("out of money," "won on a bet")
-- Responds with context-aware feedback and saving tips based on actual spending data
-
-<div align="center">
-
-```mermaid
-flowchart LR
-    A[Add Transaction] --> B[localStorage]
-    B --> C[Dashboard Cards]
-    B --> D[Category Chart]
-    B --> E[AI Advisor]
-    E -->|reads spending| B
-    style A fill:#2DD4BF,stroke:#0D1117,color:#0D1117
-    style B fill:#0D1117,stroke:#2DD4BF,color:#2DD4BF
-    style C fill:#8B7FE8,stroke:#0D1117,color:#0D1117
-    style D fill:#8B7FE8,stroke:#0D1117,color:#0D1117
-    style E fill:#2DD4BF,stroke:#0D1117,color:#0D1117
-```
+  <p>
+    <img src="https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+    <img src="https://img.shields.io/badge/TypeScript-5.5-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-3.4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/Vite-5.4-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+    <img src="https://img.shields.io/badge/Express-4.21-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
+  </p>
 
 </div>
 
-## Run it
+---
 
-There's nothing to install.
+## 🌟 Overview
 
-```bash
-git clone https://github.com/pbs002-s/student-finance-tracker.git
-cd student-finance-tracker
-open index.html   # or just double-click it
-```
+**Takar Hisab** is a feature-rich web application designed for students and individuals to track daily expenses, manage monthly budget allowances, calculate loan EMIs, convert live currencies, and consult an integrated **AI Finance Assistant**.
 
-## Deploy on GitHub Pages
+Built with a responsive, desktop & mobile-first interface, it features native gesture support, smooth view slide transitions, offline-first localStorage persistence, and server-side AI integration.
 
-1. Repo → **Settings** → **Pages**
-2. Source: `Deploy from a branch`, branch `main`, folder `/ (root)`
-3. Save — it's live in about a minute
+---
 
-## Stack
+## 🚀 Key Features
 
-Vanilla HTML, CSS, and JavaScript. No frameworks, no bundler, no npm install. `localStorage` handles persistence.
+### 📊 1. Real-Time Dashboard & Budget Meter
+- **Live Net Balance**: Instantly calculates net balance (`Total Income - Total Expense`).
+- **Visual Budget Progress**: Dynamic color-coded meter tracking budget utilization.
+- **Spending Analytics**: Categorized bar charts highlighting top spending areas.
+- **Recent Activity Feed**: Real-time list of recent transactions with category icons.
 
-## Project structure
+### 🛠️ 2. Integrated Utility Tools
+- **🧮 Loan / EMI Calculator**: Calculate monthly instalments, total interest, and total payable amount with adjustable interest rates and tenures.
+- **👥 Split Bill Manager**: Effortlessly split restaurant or hangout bills among friends with tipping support and individual share breakdowns.
+- **💱 Live Currency Converter**: Convert BDT to USD ($), EUR (€), GBP (£), INR (₹), and SAR with real-time exchange rate updates.
 
-```
-student-finance-tracker/
-├── index.html
-└── README.md
+### 🤖 3. Finance AI Assistant
+- **Smart Budget Guidance**: Instant AI insights on remaining allowance, low balance alerts, and savings tips.
+- **Conversational Queries**: Ask financial and budget management questions in natural language.
+- **Quick Prompts**: Built-in instant action chips for quick queries.
+
+### 🧾 4. Comprehensive Transaction Management
+- **Expense & Income Logging**: Easily log cash, card, and digital payment transactions.
+- **Filtering & Search**: Filter transactions by type (Expense / Income) and custom search query.
+- **Data Export & Import**: Download your entire transaction log as a CSV spreadsheet or backup JSON.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React 18, TypeScript, Tailwind CSS, Lucide Icons, Motion (Framer Motion)
+- **Backend**: Node.js, Express.js
+- **Build System**: Vite, Esbuild, TSX
+- **Data Storage**: Client-side `localStorage` with JSON export/import capability
+
+---
+
+## 🏁 Getting Started
+
+### Prerequisites
+Make sure you have **Node.js** (v18 or higher) and **npm** installed on your machine.
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/takar-hisab.git
+   cd takar-hisab
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Configure Environment Variables** (Optional for Gemini AI)
+   Create a `.env` file in the root directory:
+   ```env
+   GEMINI_API_KEY=your_gemini_api_key_here
+   ```
+
+4. **Start the Development Server**
+   ```bash
+   npm run dev
+   ```
+   Open your browser and navigate to `http://localhost:3000`.
+
+5. **Build for Production**
+   ```bash
+   npm run build
+   npm start
+   ```
+
+---
+
+## 📁 Project Structure
+
+```text
+├── src/
+│   ├── components/       # React UI Components
+│   │   ├── Navbar.tsx           # Web Navigation Bar
+│   │   ├── BottomNav.tsx        # Responsive Mobile Navigation
+│   │   ├── DashboardTab.tsx     # Financial Overview & Analytics
+│   │   ├── ToolsTab.tsx         # EMI, Split Bill & Currency Tools
+│   │   ├── TransactionsTab.tsx  # Logs, Filters & Export
+│   │   ├── AIPanel.tsx          # Finance AI Assistant Chat UI
+│   │   ├── SettingsTab.tsx      # Budget Controls & Data Backups
+│   │   ├── AddExpenseModal.tsx  # Add Expense Modal Form
+│   │   └── AddIncomeModal.tsx   # Add Income Modal Form
+│   ├── constants/        # Categories & Seed Data
+│   ├── types.ts          # TypeScript Type Definitions
+│   ├── App.tsx           # Main App State & Layout
+│   └── main.tsx          # Client Entry Point
+├── server.ts             # Express Server & API Proxy
+├── package.json          # Dependencies & Scripts
+└── README.md             # Project Documentation
 ```
 
 ---
 
-<div align="center">
+## 📄 License
 
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=pbs002-s&repo=student-finance-tracker&theme=tokyonight&hide_border=true&border_radius=10" width="45%"/>
-
-Built by [**@pbs002-s**](https://github.com/pbs002-s)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1D9E75,50:2C5364,100:0F2027&height=100&section=footer" width="100%"/>
-
-</div>
+This project is open-source and available under the [MIT License](LICENSE).
